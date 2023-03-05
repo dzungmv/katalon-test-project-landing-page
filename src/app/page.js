@@ -329,9 +329,9 @@ const TestProjectPage = () => {
                                             key={slide.id}
                                             className={`slide-item ${slide.class}`}>
                                             <section className='slile-item-left'>
-                                                <h2 className='slile-item-left-title'>
+                                                <div className='slile-item-left-title'>
                                                     {slide.title}
-                                                </h2>
+                                                </div>
                                                 <p className='desc-main'>
                                                     {slide.desc}
                                                 </p>
